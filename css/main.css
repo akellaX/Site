@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css?family=Cuprum|Rubik');
+body
+{
+	background-color: #F2F2F2;
+	font-family: "Rubik";
+	font-weight: 300;
+	font-size: 16px;
+	color: #555;
+
+	-webkit-font-smoothing:antialiased;
+	-webkit-overflow-scrolling: touch;
+
+	margin-top:70px;
+
+
+}
+
+h1,h2,h3,h4,h5,h6
+{
+	font-family: "Cuprum";
+	font-weight: 300;
+	color:#333;
+}
+p
+{
+	line-height: 28px;
+	margin-bottom: 25px;
+}
+a
+{
+	font-family: "Rubik";
+	color: #f85c37;
+}
+a:hover,a:focus
+{
+	color: #7b7b7b;
+	text-decoration: none;
+	outline: 0;
+}
+
+hr
+{
+	display: block;
+	height: 1px;
+	border: 0px;
+	border-top: 1px solid #ccc;
+	margin: 1em 0;
+	padding: 0;
+}
+
+.navbar
+{
+	font-weight: 800;
+	font-size: 14px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.navbar-inverse
+{
+	background:#FFFFFF;
+	opacity: 0.9;
+	border-color: #FFFFFF;
+}
+
+
+
+.navbar-inverse .navbar-brand
+{
+	color: #999;
+	font-weight: bolder;
+	font-size: 22px;
+	letter-spacing: 1px;
+
+}
+.navbar-inverse .navbar-nav> .active > a
+{
+	background-color: #FF7878;
+}
+
+#headerwrap
+{
+	position: relative;
+	background: url(../computer-repair.jpg) no-repeat center top;
+	margin-top: -100px;
+	padding-top: -20px;
+	padding-bottom: 400px;
+	text-align: center;
+	background-position: center;
+	background-attachment: relative;
+	min-height: 500px;
+	width: 100%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+
+
+}
+#headerimg
+{
+	margin-top: 150px;
+}
+#headerwrap h1
+{
+	margin-top: 20px;
+	color: white;
+	text-shadow: black,0,0,5pt;
+	text-indent: 1.5em;
+	font-weight: 600;
+
+}
+
+.w
+{
+	padding-top: 10px;
+}
+h3
+{
+	font-size: 40px;
+}
+h4
+{
+	font-size: 18px;
+}
+#second_row
+{
+	padding-top: 50px;
+}
+span
+{
+	float: right;
+	color:#FF5F00;
+	font-weight: 300;
+	font-size: 25px;
+}
+.s
+{
+	background:#069A93;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	opacity: 0.9;
+}
+.s h4
+{
+	color: white;
+	text-align: center;
+}
+.col-lg-2:hover, .col-lg-2:focus
+{
+	background:#EB6620;
+}
+.text_middle h2
+{
+    font-size: 45px;
+}
+
+.description1
+{
+    font-family: "Cuprum";
+	font-weight: 300;
+	color:#333;
+    font-size: 18px;
+    padding-left: 50%;
+    padding-right: 0%;
+    padding-top: 20px;
+}
+.description2
+{
+    font-family: "Cuprum";
+	font-weight: 300;
+	color:#333;
+    font-size: 18px;
+    padding-left: 0%;
+    padding-right: 50%;
+    padding-top: 20px;
+}
+
